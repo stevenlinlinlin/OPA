@@ -1,4 +1,4 @@
-# 2020-1 Open Policy Agent
+# Open Policy Agent
 This is Distribution Systems final project in NCCUCS.  
 The steps : 
 
