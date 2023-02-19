@@ -1,14 +1,16 @@
-# Open Policy Agent
-This is Distribution Systems final project in NCCUCS.  
-The steps : 
+# Open Policy Agent 
+We use Open Policy Agent to implement RBAC.
+## reference
+select from CNCF sandbox project (https://www.cncf.io/projects/)
+## Introduction
+documentation: https://www.openpolicyagent.org/docs/latest/
 
+## The steps : 
 ## 1. 在終端機上下載OPA
 
 ```
 brew install opa
 ```
-其他系統詳見官網： https://www.openpolicyagent.org/docs/latest/
-
 
 ## 2. 下載上面的四個RBAC的code，先執行command:
 ```
@@ -16,7 +18,7 @@ opa test -v *.rego
 ```
 * 檢測規則是否是符合邏輯的
 
-## 3. 若測驗後all pass後
+## 3. 若檢查all pass後
 ```
 opa run --server
 ```
