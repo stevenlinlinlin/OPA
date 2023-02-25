@@ -27,7 +27,7 @@ opa test -v *.rego
 opa run --server
 ```
 
-## Send request to OPA server
+## Send request to my OPA server
 
 ### data to OPA server
 
