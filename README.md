@@ -1,5 +1,5 @@
 # Open Policy Agent 
-We use Open Policy Agent to implement RBAC.
+use Open Policy Agent to implement RBAC.
 
 ## Environment
 - Macbook M1 Pro
@@ -27,21 +27,21 @@ opa test -v *.rego
 opa run --server
 ```
 
-## Send request to my OPA server
+## Build data and policy to my OPA server
 
-### data to OPA server
-
+### data
+data.json is the data file
 ```
 curl -X PUT http://localhost:8181/v1/data/rbac/authz/acl --data-binary @data.json
 ```
 
-### policy to OPA server
-
+### policy 
+*.rego is the policy file
 ```
 curl -X PUT http://localhost:8181/v1/policies/rbac.authz --data-binary @rbac.authz.rego
 ```
 
-### query to OPA server
+## Query to OPA server
  ```
  curl -X POST http://localhost:8181/v1/data/rbac/authz/allow --data-binary @input.json
 ```
