@@ -5,7 +5,7 @@ We use Open Policy Agent to implement RBAC.
 - Macbook M1 Pro
 - terminal command
 ## Reference
-select from CNCF sandbox project (https://www.cncf.io/projects/)
+CNCF sandbox project (https://www.cncf.io/projects/)
 ## Introduction
 documentation: https://www.openpolicyagent.org/docs/latest/
 
